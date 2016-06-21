@@ -2,6 +2,8 @@
 
 On my last working days at [ROAMWORKS](http://roamworks.com/our-branches/germany/), I was commanded to do some knowledge transfer sessions. During the handover process, I took a step back and tried to implement a simple list application in a more Vanilla JS fashion. :-)
 
+![App screenshot](screenshot.png)
+
 ### Why?
 I would like to demonstrate how MVC becomes "patterns of patterns" which underlies the code base of maps module in RW app.
 
