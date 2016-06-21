@@ -1,0 +1,8 @@
+.list-group-scrollable {
+    max-height: 300px;
+    overflow:   auto;
+}
+
+.hidden {
+    display: none !important;
+}

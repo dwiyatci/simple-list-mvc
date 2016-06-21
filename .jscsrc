@@ -1,0 +1,9 @@
+{
+  "preset"                             : "airbnb",
+  "disallowSpaceAfterObjectKeys"       : {
+    "allExcept": [
+      "multiline"
+    ]
+  },
+  "requireDollarBeforejQueryAssignment": false
+}
