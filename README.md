@@ -13,9 +13,8 @@ Since my MVC implementation is based on the MCV interpretation taken from the am
 
 ## Installation
 ```sh
-$ ssh git@github.com:dwiyatci/simple-list-mvc.git
-$ npm run install:global
-$ npm run install:clean
+$ git clone git@github.com:dwiyatci/simple-list-mvc.git
+$ npm install
 ```
 
 ## Usage

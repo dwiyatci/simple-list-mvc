@@ -17,13 +17,12 @@
     "url" : "https://github.com/dwiyatci/simple-list-mvc.git"
   },
   "scripts"        : {
-    "install:global": "npm i -g rimraf updtr webpack webpack-dev-server",
-    "install:clean" : "rimraf node_modules && npm i",
-    "start"         : "webpack-dev-server --inline --hot",
-    "jscs"          : "jscs src",
-    "clean"         : "rimraf dist",
-    "build"         : "npm run jscs && npm run clean && webpack",
-    "update"        : "updtr"
+    "install:clean": "rimraf node_modules && npm i",
+    "start"        : "webpack-dev-server --inline --hot",
+    "jscs"         : "jscs src",
+    "clean"        : "rimraf dist",
+    "build"        : "npm run jscs && npm run clean && webpack",
+    "update"       : "updtr"
   },
   "dependencies"   : {
     "jquery" : "3.0.0",
@@ -38,7 +37,11 @@
     "extract-text-webpack-plugin": "1.0.1",
     "html-loader"                : "0.4.3",
     "html-webpack-plugin"        : "2.21.0",
+    "jscs"                       : "3.0.5",
+    "rimraf"                     : "2.5.2",
     "style-loader"               : "0.13.1",
-    "webpack"                    : "1.13.1"
+    "updtr"                      : "0.2.0",
+    "webpack"                    : "1.13.1",
+    "webpack-dev-server"         : "1.14.1"
   }
 }
